@@ -1,0 +1,51 @@
+/*Large Devices*/
+@media(min-width:1200px){
+    /*    This is fine*/
+    }
+    
+    /*Medium devices (Landscape Tablets and Medium Tablets)*/
+    @media(min-width:992px) and (max-width:1199px){
+    /*    This is fine*/    
+    }
+    
+    /*Small devices (Potrait Tablets and small desktops)*/
+    @media(min-width:768px) and (max-width:991px){
+
+        .home-cover h2{
+            font-size: 40px;
+        }
+        .testimonial blockquote{
+            padding: 10px 50px;
+        }    
+        .testimonial blockquote:before{
+            left: 10px;
+        }
+        .testimonial blockquote:after{
+            right: 10px;
+        }
+        .footer-bottom{
+            text-align: center;
+        }
+        .newsletter > .col-md-6{
+            padding-left: 0px;
+        }
+        .form-group-custom .textbox{
+            display: block;
+        }
+    }
+    
+    /*small devices (Mobile potrait)*/
+    @media(max-width: 767px){
+        .testimonial blockquote{
+            padding: 10px 50px;
+        }
+        .testimonial blockquote:before{
+            left: 10px;
+        }
+        .testimonial blockquote:after{
+            right: 10px;
+        }
+        .footer-bottom{
+            text-align: center;
+        }    
+    }
