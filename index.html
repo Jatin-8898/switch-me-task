@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--META TAGS-->
+    <meta charset="utf-8">
+    <meta name="description" content="Building Switch Me Responsive Website using html5, CSS3 and Bootstrap!">
+    <meta name="keywords" content="HTML5, CSS3, jQuery, Responsive Website, Bootstrap">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <!--END OF META TAGS-->
+
+    <!--TITLE GOES HERE Format Product Name | Company Name-->
+    <title>Switch Me</title>
+
+    <!--RESOURCE LINKING-->
+    <!--Favicon Keep 128 by 128px-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Postboot -->
+    <!--Animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.1/animate.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <!--OWL Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!--Our Styles-->
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <!--Responsive-->
+    <link rel="stylesheet" href="styles/css/responsive.css">
+    
+</head>
+<body>
+
+    <!--Home-->
+    <section id="home">
+        <div class="home-cover primary-overlay animated fadeIn wow">
+            
+            <!--Navbar-->  
+            <nav class="navbar navbar-expand-lg navbar-default navbar-light bg-transparent">
+                <a class="navbar-brand ml-5 pl-5 text-white" href="#">SWITCHME</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav row nav justify-content-center ml-auto pl-5 pr-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ads</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Our Clients</a>
+                                <a class="dropdown-item" href="#">Our Work</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        
+                    </ul>
+    
+                    <ul class="nav navbar-nav mr-auto justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary btn-sm pt-2 pb-2" href="#">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>    
+            <!--Navbar-->  
+
+            <div class="home-content-box">
+                <div class="home-content-box-inner">
+                    
+                    <div class="home-heading mb-5 mt-5 animated zoomIn wow" data-wow-duration="2s" data-wow-delay="1s">
+                        <h2 class="text-white">Welcome to SwitchMe</h2>
+                        <h4 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    </div>
+                    <div class="animated zoomIn wow" data-wow-duration="2s">
+                        <div class="row">
+                            <div class="col-md-8 mx-auto col-sm-12 col-12">
+                                <div class="row form-group-custom pt-3 pb-3 rounded">
+                                    
+                                    <div class="col-md-3 col-sm-12">
+                                        <input class="textbox rounded p-2 border-0" type="text" name="" placeholder="What are you looking for?">
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-12">
+                                        <input class="rounded p-2 border-0"  type="text" name="" placeholder="Location">
+                                    </div>
+
+                                    <div class="col-md-3 col-12">
+                                        <select class="d-lg-flex rounded text-secondary p-2 border-0"  name="" >
+                                            <option>All Categories</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-12">
+                                        <button type="button" name="" id="" class="btn btn-primary btn-block p-1 ">Search</button>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 trend-search">
+                            <div class="col-md-8 col-12 col-sm-12">
+                                <span>Trending Search: </span>
+                                <button class="btn btn-outline-white" type="button">Iphone</button>
+                                <button class="btn btn-outline-white" type="button">Cat</button>
+                                <button class="btn btn-outline-white" type="button">Flowers</button>
+                                <button class="btn btn-outline-white" type="button">House</button>
+                            </div>
+                        </div>
+
+                    </div><!--end-->
+                </div><!--End .home-content-box-inner-->
+            </div><!--End home-content-box-->
+           
+        </div><!--End home-cover-->
+    </section><!--End Home-->
+    <!--Home ends-->
+
+
+    <!-- Featured -->
+    <section id="featured">
+        <div class="featured pt-5 pb-5">
+            <div class="container mx-auto wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                <div class="row mt-5 wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+                    <h3 class="ml-3">Featured Ads</h3>
+                </div>
+
+                <div class="inner-featured">
+                    <div class="row">
+                        <div class="card" style="width: 15rem;">
+                            <img class="card-img-top" src="assets/img/3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <span class="card-title">Furniture</span>
+                                    <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                </div>
+                                <p class="card-text blue-title-light pt-3">Wooden Chair and Table</p>
+                                <p class="card-text2">Don Stan Brooklyn New York</p>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey-star" aria-hidden="true"></i><span> (3 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img class="card-img-top" src="assets/img/4.jpg" alt="Card image cap">
+                            <div class="card-body ">
+                                <div class="clearfix">
+                                    <span class="card-title">Electronics</span>
+                                    <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                </div>    
+                                <p class="card-text blue-title-light pt-3">Iphone X Gray</p>
+                                <p class="card-text2">Don Stan Brooklyn New York</p>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey-star" aria-hidden="true"></i><span> (3 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img class="card-img-top" src="assets/img/1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <span class="card-title">Cars Vehicles</span>
+                                    <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                </div>
+                                <p class="card-text blue-title-light pt-3">New Black Car</p>
+                                <p class="card-text2">Don Stan Brooklyn New York</p>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey-star" aria-hidden="true"></i><span> (3 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img class="card-img-top" src="assets/img/2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <span class="card-title">Real Estate</span>
+                                    <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                </div>
+                                <p class="card-text blue-title-light pt-3">Own New House</p>
+                                <p class="card-text2">Don Stan Brooklyn New York</p>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey-star" aria-hidden="true"></i><span> (3 reviews)</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Featured -->
+
+
+    <!-- Popular -->
+    <section id="popular">
+        <div class="popular-cat mt-5 pt-5 pb-5">
+            <div class="container">
+                <div class="content-box wow animated fadeInDown" data-wow-duration="2s"       data-wow-delay=".4s">
+                        <div class="text-center wow animated fadeInDown" data-wow-duration="1s"       data-wow-delay=".3s">
+                            <h2 class="blue-title">Popular Categories</h2>
+                            <p class="text-center">Lorem ipsum dolor sit amet</p>
+                            <div class="content-title-underline"></div>
+                        </div><!--content-title-->
+                </div>
+                <div class="wow animated slideInLeft" data-wow-duration="5s"       data-wow-delay=".3s">
+                    <div class="row mb-5 wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+                        <div class="col-md-2 text-center mt-4">
+                            <p>
+                                <i class="fa fa-car fa-3x" aria-hidden="true"></i>
+                            </p>
+                            <p>Cars & Vehicles</p>
+                            <span class="badge badge-pill badge-custom p-2">1921</span>
+                        </div>
+                        <div class="col-md-2 text-center mt-4">
+                            <p>
+                                <i class="fa fa-couch fa-3x" aria-hidden="true"></i>
+                            </p>
+                            <p>Furniture</p>
+                            <span class="badge badge-pill badge-custom p-2">2339</span>
+                        </div>
+                        <div class="col-md-2 text-center mt-4">
+                            <p>
+                                <i class="fa fa-home fa-3x" aria-hidden="true"></i>
+                            </p>
+                            <p>Real Estate</p>
+                            <span class="badge badge-pill badge-custom p-2">4398</span>
+                        </div>
+                        <div class="col-md-2 text-center mt-4">
+                            <p>
+                                <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+                            </p>
+                            <p>Books & Magzine</p>
+                            <span class="badge badge-pill badge-custom p-2">3298</span>
+                        </div>
+                        <div class="col-md-2 text-center mt-4">
+                            <p>
+                                <i class="fa fa-tv fa-3x" aria-hidden="true"></i>
+                            </p>
+                            <p>Electronics</p>
+                            <span class="badge badge-pill badge-custom p-2">2932</span>
+                        </div>
+                        <div class="col-md-2 text-center mt-4">
+                            <p>
+                                <i class="fas fa-pizza-slice fa-3x"></i>
+                            </p>
+                            <p>Other</p>
+                            <span class="badge badge-pill badge-custom p-2">183</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular -->
+
+
+    <!-- Trending -->
+    <section id="trending" class="pb-5 pt-5">
+        <div class="trending-today">
+            <div class="content-box pb-5 pl-5 ml-5 wow animated fadeInDown" data-wow-duration="2s" data-wow-delay=".4s">
+                
+                <div class="ml-3 wow animated fadeInDown" data-wow-duration="2s"       data-wow-delay=".3s">
+                    <h2 class="blue-title">Trending Today</h2>
+                    <div class="content-title-underline float-left"></div>
+                </div><!--content-title-->
+            </div>    
+            <div class="container mx-auto wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                <div class="col-md-12 ml-5 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="row row-flex">
+                        <div class="col-md-5 col-sm-12 col-7">
+                            <div class="content colour-1 rounded">
+                                <div class="float-left">
+                                    <img alt="" src="assets/img/2.jpg" height="180px" width="200px">
+                                </div>  
+                
+                                <div class="ml-3 pt-3 float-left ">
+                                    <div class="clearfix">
+                                        <span class="trending-card-title">Real Estate</span>
+                                        <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                    </div>
+        
+                                    <p class="card-text mt-3 blue-title-light">Own New House</p>
+                                    <p class="card-text2">Don Stan Brooklyn New York</p>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star " aria-hidden="true"></i><span>(3 reviews)</span>
+                                    </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-5 col-sm-12 col-7">
+                            <div class="content colour-1 rounded">
+                                <div class="float-left">
+                                    <img alt="" src="assets/img/1.jpg" height="180px" width="200px">
+                                </div>  
+                
+                                <div class="ml-3 pt-3 float-left">
+                                    <div class="clearfix">
+                                        <span class="trending-card-title">Cars & Vehicles</span>
+                                        <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                    </div>
+        
+                                    <p class="card-text mt-3 blue-title-light">New Black Car</p>
+                                    <p class="card-text2">Don Stan Brooklyn New York</p>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star " aria-hidden="true"></i><span>(3 reviews)</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-5 col-sm-12 col-7">
+                            <div class="content colour-1 rounded">
+                                <div class="float-left">
+                                    <img alt="" src="assets/img/3.jpg" height="180px" width="200px">
+                                </div>  
+                
+                                <div class="ml-3 pt-3 float-left">
+                                    <div class="clearfix">
+                                        <span class="trending-card-title">Furniture</span>
+                                        <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                    </div>
+        
+                                    <p class="card-text mt-3 blue-title-light">Wooden Chair & table</p>
+                                    <p class="card-text2">Don Stan Brooklyn New York</p>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star " aria-hidden="true"></i><span>(3 reviews)</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-5 col-sm-12 col-7">
+                            <div class="content colour-1 rounded">
+                                <div class="float-left">
+                                    <img alt="" src="assets/img/2.jpg" height="180px" width="200px">
+                                </div>  
+                
+                                <div class="ml-3 pt-3 float-left">
+                                    <div class="clearfix">
+                                        <span class="trending-card-title">Real Estate</span>
+                                        <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                    </div>
+        
+                                    <p class="card-text mt-3 blue-title-light">Own New House</p>
+                                    <p class="card-text2">Don Stan Brooklyn New York</p>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star " aria-hidden="true"></i><span>(3 reviews)</span>
+                                    </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-md-5 col-sm-12 col-7">
+                            <div class="content colour-1 rounded">
+                                <div class="float-left">
+                                    <img alt="" src="assets/img/4.jpg" height="180px" width="200px">
+                                </div>  
+                
+                                <div class="ml-3 pt-3 float-left">
+                                    <div class="clearfix">
+                                        <span class="trending-card-title">Electronics</span>
+                                        <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                    </div>
+        
+                                    <p class="card-text mt-3 blue-title-light">Iphone X Gray</p>
+                                    <p class="card-text2">Don Stan Brooklyn New York</p>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star " aria-hidden="true"></i><span>(3 reviews)</span>
+                                    </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-md-5 col-sm-12 col-7">
+                            <div class="content colour-1 rounded">
+                                <div class="float-left">
+                                    <img alt="" src="assets/img/3.jpg" height="180px" width="200px">
+                                </div>  
+                
+                                <div class="ml-3 pt-3 float-left">
+                                    <div class="clearfix">
+                                        <span class="trending-card-title">Furniture</span>
+                                        <span class="btn btn-pill  btn-heart" ><i class="fa-mine fa fa-heart" aria-hidden="true"></i></span>
+                                    </div>
+        
+                                    <p class="card-text mt-3 blue-title-light">Wooden Chair & table</p>
+                                    <p class="card-text2">Don Stan Brooklyn New York</p>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star orange-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star " aria-hidden="true"></i><span>(3 reviews)</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!-- Trending -->
+
+   
+    <!--Testimonial Section-->
+    <section id="testimonial" class="mt-5">
+        <div class="testimonial-cover bg-parallax">
+                <div class="content-box wow animated fadeInDown" data-wow-duration="2s"       data-wow-delay=".4s">
+                <div class="text-center wow animated slideInLeft" data-wow-duration="2s"       data-wow-delay=".4s">
+                    <h2 class="blue-title">Testimonial</h2>
+                    <div class="content-title-underline"></div>
+                </div><!--content-title-->
+                <div class="container">
+                    <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="customers-testimonials text-center owl-carousel owl-theme">
+                            <div class="testimonial">
+                                <img src="assets/img/8.jpg" alt="testimonial" class="img-responsive rounded-circle">
+                                <div class="testimonial-author">
+                                    <p class="pt-3">
+                                        <strong>Bruce Rogers</strong>
+                                    </p>
+                                </div>
+                                <blockquote class="text-center  mb-3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla voluptate est, officia consequatur ex placeat harum sequi tempore. Nihil officia consequuntur officiis itaque assumenda ipsum, corporis odio dolorem quas!</p>
+                                </blockquote>    
+                            </div><!--testimonial-->
+
+                            <div class="testimonial">
+                                <img src="assets/img/6.jpg" alt="testimonial" class="img-responsive rounded-circle">
+                                <div class="testimonial-author">
+                                    <p class="pt-3">
+                                        <strong>Bruce Rogers</strong>
+                                    </p>
+                                </div>
+                                <blockquote class="text-center  mb-3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla voluptate est, officia consequatur ex placeat harum sequi tempore. Nihil officia consequuntur officiis itaque assumenda ipsum, corporis odio dolorem quas!</p>
+                                </blockquote>
+                            </div><!--testimonial-->
+
+
+                            <div class="testimonial">
+                                <img src="assets/img/5.jpg" alt="testimonial" class="img-responsive rounded-circle">
+                                <div class="testimonial-author">
+                                    <p class="pt-3">
+                                        <strong>Bruce Rogers</strong>
+                                    </p>
+                                </div>
+                                <blockquote class="text-center  mb-3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla voluptate est, officia consequatur ex placeat harum sequi tempore. Nihil officia consequuntur officiis itaque assumenda ipsum, corporis odio dolorem quas!</p>
+                                </blockquote>
+                            </div><!--testimonial-->
+
+                            <div class="testimonial">
+                                <img src="assets/img/7.jpg" alt="testimonial" class="img-responsive rounded-circle">
+                                <div class="testimonial-author">
+                                    <p class="pt-3">
+                                        <strong>Bruce Rogers</strong>
+                                    </p>
+                                </div>
+                                <blockquote class="text-center mb-3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla voluptate est, officia consequatur ex placeat harum sequi tempore. Nihil officia consequuntur officiis itaque assumenda ipsum, corporis odio dolorem quas!</p>
+                                </blockquote>
+                            </div><!--testimonial-->
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!--Testimonial Section Ends-->
+
+
+    <!-- Blog -->
+    <section id="blogs" class="pb-5">
+        <div class="blog">
+            <div class="container">
+                    <div class="content-box wow animated fadeInDown" data-wow-duration="2s"       data-wow-delay=".4s">
+                    <div class="text-center wow animated fadeInDown" data-wow-duration="2s"       data-wow-delay=".3s">
+                        <h2 class="blue-title">Our Blog</h2>
+                        <p class="text-center">See Our Daily News Update</p>
+                        <div class="content-title-underline"></div>
+                    </div><!--content-title-->
+                </div>
+                <div class="row wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                    <div class="col wow animated slideInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+                        <div class="card-columns">
+                            <div class="card-transparent border">
+                                <img src="assets/img/1.jpg" alt="" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="card-title">Many People Selling Online</h4>
+                                    <small class="text-muted">By Mark Spiker : Jan 18, 2019 :       <span class="news">News</span></small>
+                                    <p class="card-text pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus velit aut sed praesentium odio ratione, quia libero. Quam porro fugiat blanditiis vitae quidem eius</p>
+                                </div>
+                            </div>
+                            
+                            <div class="card-transparent border">
+                                <img src="assets/img/2.jpg" alt="" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="card-title">Many People Selling Online</h4>
+                                    <small class="text-muted">By Mark Spiker : Jan 18, 2019 :       <span class="news">News</span></small>
+                                    <p class="card-text pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus velit aut sed praesentium odio ratione, quia libero. Quam porro fugiat blanditiis vitae quidem eius</p>
+                                </div>
+                            </div>
+                            
+                            <div class="card-transparent border">
+                                <img src="assets/img/3.jpg" alt="" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="card-title">Many People Selling Online</h4>
+                                    <small class="text-muted">By Mark Spiker : Jan 18, 2019 :       <span class="news">News</span></small>
+                                    <p class="card-text pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus velit aut sed praesentium odio ratione, quia libero. Quam porro fugiat blanditiis vitae quidem eius</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="col-12 text-center mt-5 wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+                        <button class="btn btn-blue btn-lg">
+                            View All Posts
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog -->
+
+    <!-- Newsletter -->
+    <div id="newsletters">
+        <div class="newletter pb-5 pt-3">
+            <div class="container wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                <div class="row wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="col-md-12">
+                        <div class="clearfix">
+                            <div class="col-md-6 pt-5 float-left">
+                                <h4 class="pl-3">Newsletter</h4>
+                                <p class="text-white pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <div class="col-md-6 pt-5 float-left pl-3">
+                                <div class="clearfix">
+                                    <div class="float-left">
+                                        <input type="email" name="email" id="email" class="text-white email" placeholder="Email">    
+                                    </div>
+                                    <div class="float-left mt-3">
+                                        <span class="btn subscribe-btn" type="button">Subscribe</span>
+                                    </div>    
+                                </div>
+                                
+                            </div>
+                        </div>  
+                    </div>     
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container pt-5 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+            <div class="row wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                <div class="col-md-12 mx-auto">
+
+                    <div class="row ml-4">
+                    <div class="contact-left col-md-3 mt-5">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque neque cumque dolores temporibus aliquam dignissimos similique ad dicta, molestiae minima?</p>
+                    </div>
+                    
+                    
+                    <div class="col-md-2 mt-5">
+                        <div class="contact-info">
+                            <h4 class="text-white">Navigations</h4>
+                             <p>About Us</p>
+                             <p>Services</p>
+                             <p>Testimonials</p>
+                             <p>Contact Us</p>
+                        </div><!--contact-info-->
+                    </div>
+
+                    <div class="col-md-3 mt-5">
+                        <h4 class="text-white">Follow Us</h4>
+                            <ul class="social-list">
+
+                                <li><a href="#" class="social-icon icon-white">
+                                        <i class="fab fa-facebook-f"></i>
+                                </a></li>
+                                <li><a href="#" class="social-icon icon-white">
+                                        <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="#" class="social-icon icon-white">
+                                        <i class="fab fa-instagram"></i>
+                                </a></li>
+                                <li><a href="#" class="social-icon icon-white">
+                                        <i class="fab fa-linkedin-in"></i>
+                                </a></li>
+                            </ul>
+                    </div>
+
+                    <div class="col-md-4 mt-5">
+                        <div class="input-group mb-3">
+                            <input type="text" class="search-product" aria-label="" placeholder="Search Products..">
+                            <div class="input-group-append">
+                              <span class="btn btn-primary">Search</span>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="content-box wow animated fadeInUp" data-wow-duration="2s"       data-wow-delay=".4s">
+                
+            <div class="row wow animated fadeInDown" data-wow-duration="2s"       data-wow-delay=".4s">
+                <div class="col-md-10 mx-auto pt-5 pb-5">
+                    <hr>
+                    <div class="footer-copyrights mt-5 pt-5 text-center">
+                        <p>Copyrights © 2019 All Rights Reserved by Jatin Varlyani</p>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        
+        </div>
+    </footer>
+
+    <!-- Footer -->
+
+
+    <!-- Scripts -->
+
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Easing.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!--WOW.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!--Postboot-->
+    <!--Owl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!--Our Scripts-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
